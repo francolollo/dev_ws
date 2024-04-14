@@ -1,0 +1,341 @@
+[0.000000] (-) TimerEvent: {}
+[0.001529] (Gazebo) JobQueued: {'identifier': 'Gazebo', 'dependencies': OrderedDict()}
+[0.002053] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002243] (Gazebo) JobStarted: {'identifier': 'Gazebo'}
+[0.052686] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.082301] (Gazebo) JobProgress: {'identifier': 'Gazebo', 'progress': 'cmake'}
+[0.083504] (Gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/andrea/dev_ws/gazebo', '-DCMAKE_INSTALL_PREFIX=/home/andrea/dev_ws/install/Gazebo'], 'cwd': '/home/andrea/dev_ws/build/Gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andrea'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andrea'), ('OLDPWD', '/home/andrea'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1553'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andrea/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andrea'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andrea'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andrea-desktop:@/tmp/.ICE-unix/1500,unix/andrea-desktop:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38563a98_5e03_4c38_a0ab_ced84da58868'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.08E1L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrea/dev_ws/build/Gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot')]), 'shell': False}
+[0.099315] (-) TimerEvent: {}
+[0.106378] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.112257] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.115981] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andrea/dev_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/andrea/dev_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andrea'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andrea'), ('OLDPWD', '/home/andrea'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1553'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andrea/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andrea'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andrea'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andrea-desktop:@/tmp/.ICE-unix/1500,unix/andrea-desktop:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38563a98_5e03_4c38_a0ab_ced84da58868'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.08E1L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrea/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.199627] (-) TimerEvent: {}
+[0.300728] (-) TimerEvent: {}
+[0.401809] (-) TimerEvent: {}
+[0.479540] (my_bot) CommandEnded: {'returncode': 0}
+[0.502002] (-) TimerEvent: {}
+[0.592962] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.602195] (-) TimerEvent: {}
+[0.627031] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andrea/dev_ws/build/my_bot'], 'cwd': '/home/andrea/dev_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andrea'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/andrea'), ('OLDPWD', '/home/andrea'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1553'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andrea/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andrea'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andrea'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andrea-desktop:@/tmp/.ICE-unix/1500,unix/andrea-desktop:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38563a98_5e03_4c38_a0ab_ced84da58868'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.08E1L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andrea/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andrea/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.663804] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.668093] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.675924] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.690780] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.692758] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.693869] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.695161] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.699143] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.700273] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.702358] (-) TimerEvent: {}
+[0.703536] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.704944] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.714645] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.717230] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.718436] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.722019] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.723260] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.726159] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.729713] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.733219] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.734406] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.735487] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/andrea/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.776471] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.780909] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.783261] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.784286] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.791299] (my_bot) CommandEnded: {'returncode': 0}
+[0.802515] (-) TimerEvent: {}
+[0.905567] (-) TimerEvent: {}
+[1.006459] (-) TimerEvent: {}
+[1.095317] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[1.106714] (-) TimerEvent: {}
+[1.161921] (Gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.206873] (-) TimerEvent: {}
+[1.307749] (-) TimerEvent: {}
+[1.408851] (-) TimerEvent: {}
+[1.509970] (-) TimerEvent: {}
+[1.610915] (-) TimerEvent: {}
+[1.711738] (-) TimerEvent: {}
+[1.812687] (-) TimerEvent: {}
+[1.913745] (-) TimerEvent: {}
+[2.001404] (Gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.013917] (-) TimerEvent: {}
+[2.048474] (Gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.114187] (-) TimerEvent: {}
+[2.215159] (-) TimerEvent: {}
+[2.316005] (-) TimerEvent: {}
+[2.396415] (Gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.416148] (-) TimerEvent: {}
+[2.422646] (Gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.424440] (Gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.427351] (Gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.441548] (Gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.516369] (-) TimerEvent: {}
+[2.617144] (-) TimerEvent: {}
+[2.717934] (-) TimerEvent: {}
+[2.816986] (Gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.818038] (-) TimerEvent: {}
+[2.843682] (Gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.844705] (Gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.846472] (Gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.849593] (Gazebo) StdoutLine: {'line': b'-- Gazebo version 11.14.0\n'}
+[2.856443] (Gazebo) StdoutLine: {'line': b'-- Found CPack generators: DEB\n'}
+[2.894939] (Gazebo) StdoutLine: {'line': b'-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) \n'}
+[2.915642] (Gazebo) StdoutLine: {'line': b'-- High memory tests: enabled\n'}
+[2.916451] (Gazebo) StdoutLine: {'line': b'-- \n'}
+[2.916875] (Gazebo) StdoutLine: {'line': b'\n'}
+[2.917272] (Gazebo) StdoutLine: {'line': b'====== Finding 3rd Party Packages ======\n'}
+[2.918184] (-) TimerEvent: {}
+[2.928555] (Gazebo) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[2.977050] (Gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.000492] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'freeimage>=3.9.0'\n"}
+[3.015246] (Gazebo) StdoutLine: {'line': b"--   No package 'freeimage' found\n"}
+[3.016023] (Gazebo) StdoutLine: {'line': b'--   freeimage.pc not found, trying freeimage_include_dir and freeimage_library_dir flags.\n'}
+[3.018327] (-) TimerEvent: {}
+[3.019066] (Gazebo) StdoutLine: {'line': b'--   Looking for FreeImage.h - not found\n'}
+[3.019626] (Gazebo) StdoutLine: {'line': b'-- \tMissing: Unable to find FreeImage.h\n'}
+[3.118555] (-) TimerEvent: {}
+[3.155127] (Gazebo) StdoutLine: {'line': b'--   Looking for libfreeimage - not found\n'}
+[3.155813] (Gazebo) StdoutLine: {'line': b'-- \tMissing: Unable to find libfreeimage\n'}
+[3.218795] (-) TimerEvent: {}
+[3.319605] (-) TimerEvent: {}
+[3.420597] (-) TimerEvent: {}
+[3.521325] (-) TimerEvent: {}
+[3.622157] (-) TimerEvent: {}
+[3.722954] (-) TimerEvent: {}
+[3.823862] (-) TimerEvent: {}
+[3.924687] (-) TimerEvent: {}
+[4.003908] (Gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.025017] (-) TimerEvent: {}
+[4.026013] (Gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[4.026607] (Gazebo) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[4.027011] (Gazebo) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[4.027360] (Gazebo) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[4.027818] (Gazebo) StderrLine: {'line': b'\n'}
+[4.028190] (Gazebo) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[4.028481] (Gazebo) StderrLine: {'line': b'\n'}
+[4.028931] (Gazebo) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/aarch64-linux-gnu/libGL.so\n'}
+[4.029249] (Gazebo) StderrLine: {'line': b'\n'}
+[4.029551] (Gazebo) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[4.029902] (Gazebo) StderrLine: {'line': b'\n'}
+[4.030195] (Gazebo) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/aarch64-linux-gnu/libOpenGL.so\n'}
+[4.030451] (Gazebo) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/aarch64-linux-gnu/libGLX.so\n'}
+[4.030775] (Gazebo) StderrLine: {'line': b'\n'}
+[4.031107] (Gazebo) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[4.031382] (Gazebo) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[4.031638] (Gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.031891] (Gazebo) StderrLine: {'line': b'  cmake/SearchForStuff.cmake:74 (include)\n'}
+[4.032147] (Gazebo) StderrLine: {'line': b'  CMakeLists.txt:163 (include)\n'}
+[4.032399] (Gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.032647] (Gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[4.032892] (Gazebo) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[4.064492] (Gazebo) StdoutLine: {'line': b'-- Could NOT find OpenAL (missing: OPENAL_LIBRARY OPENAL_INCLUDE_DIR) \n'}
+[4.065126] (Gazebo) StdoutLine: {'line': b'-- \tOpenAL not found, audio support will be disabled.\n'}
+[4.125199] (-) TimerEvent: {}
+[4.225871] (-) TimerEvent: {}
+[4.326623] (-) TimerEvent: {}
+[4.427622] (-) TimerEvent: {}
+[4.528476] (-) TimerEvent: {}
+[4.629381] (-) TimerEvent: {}
+[4.730440] (-) TimerEvent: {}
+[4.831553] (-) TimerEvent: {}
+[4.932667] (-) TimerEvent: {}
+[5.033672] (-) TimerEvent: {}
+[5.134689] (-) TimerEvent: {}
+[5.235418] (-) TimerEvent: {}
+[5.336202] (-) TimerEvent: {}
+[5.436973] (-) TimerEvent: {}
+[5.537793] (-) TimerEvent: {}
+[5.638958] (-) TimerEvent: {}
+[5.739720] (-) TimerEvent: {}
+[5.840472] (-) TimerEvent: {}
+[5.941361] (-) TimerEvent: {}
+[6.042275] (-) TimerEvent: {}
+[6.143214] (-) TimerEvent: {}
+[6.244151] (-) TimerEvent: {}
+[6.344953] (-) TimerEvent: {}
+[6.446028] (-) TimerEvent: {}
+[6.546868] (-) TimerEvent: {}
+[6.647759] (-) TimerEvent: {}
+[6.748523] (-) TimerEvent: {}
+[6.849242] (-) TimerEvent: {}
+[6.950138] (-) TimerEvent: {}
+[7.051175] (-) TimerEvent: {}
+[7.152087] (-) TimerEvent: {}
+[7.253035] (-) TimerEvent: {}
+[7.353931] (-) TimerEvent: {}
+[7.454871] (-) TimerEvent: {}
+[7.555705] (-) TimerEvent: {}
+[7.656557] (-) TimerEvent: {}
+[7.757504] (-) TimerEvent: {}
+[7.813195] (Gazebo) StdoutLine: {'line': b'-- Found HDF5: /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so (found version "1.10.7") found components: C CXX \n'}
+[7.814156] (Gazebo) StdoutLine: {'line': b'-- HDF5 Found\n'}
+[7.857681] (-) TimerEvent: {}
+[7.958358] (-) TimerEvent: {}
+[8.059103] (-) TimerEvent: {}
+[8.159909] (-) TimerEvent: {}
+[8.260705] (-) TimerEvent: {}
+[8.269644] (Gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[8.272590] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libprofiler'\n"}
+[8.284147] (Gazebo) StdoutLine: {'line': b"--   No package 'libprofiler' found\n"}
+[8.289519] (Gazebo) StdoutLine: {'line': b'-- Looking for libprofiler - not found\n'}
+[8.291423] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libtcmalloc'\n"}
+[8.302989] (Gazebo) StdoutLine: {'line': b"--   No package 'libtcmalloc' found\n"}
+[8.307163] (Gazebo) StdoutLine: {'line': b'-- Looking for libtcmalloc - not found\n'}
+[8.360875] (-) TimerEvent: {}
+[8.461554] (-) TimerEvent: {}
+[8.504079] (Gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning at cmake/SearchForStuff.cmake:167 (find_package):\n'}
+[8.504943] (Gazebo) StderrLine: {'line': b'  By not providing "FindSimbody.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[8.505244] (Gazebo) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Simbody", but\n'}
+[8.505507] (Gazebo) StderrLine: {'line': b'  CMake did not find one.\n'}
+[8.505764] (Gazebo) StderrLine: {'line': b'\n'}
+[8.506019] (Gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "Simbody" with any\n'}
+[8.506271] (Gazebo) StderrLine: {'line': b'  of the following names:\n'}
+[8.506517] (Gazebo) StderrLine: {'line': b'\n'}
+[8.506823] (Gazebo) StderrLine: {'line': b'    SimbodyConfig.cmake\n'}
+[8.507128] (Gazebo) StderrLine: {'line': b'    simbody-config.cmake\n'}
+[8.507382] (Gazebo) StderrLine: {'line': b'\n'}
+[8.507627] (Gazebo) StderrLine: {'line': b'  Add the installation prefix of "Simbody" to CMAKE_PREFIX_PATH or set\n'}
+[8.507874] (Gazebo) StderrLine: {'line': b'  "Simbody_DIR" to a directory containing one of the above files.  If\n'}
+[8.508115] (Gazebo) StderrLine: {'line': b'  "Simbody" provides a separate development package or SDK, be sure it has\n'}
+[8.508355] (Gazebo) StderrLine: {'line': b'  been installed.\n'}
+[8.508593] (Gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.508833] (Gazebo) StderrLine: {'line': b'  CMakeLists.txt:163 (include)\n'}
+[8.509072] (Gazebo) StderrLine: {'line': b'\n'}
+[8.509309] (Gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[8.509547] (Gazebo) StdoutLine: {'line': b'-- Looking for Simbody - not found\n'}
+[8.509858] (Gazebo) StdoutLine: {'line': b'-- \tSimbody not found, for simbody physics engine option, please install libsimbody-dev.\n'}
+[8.561706] (-) TimerEvent: {}
+[8.662413] (-) TimerEvent: {}
+[8.763148] (-) TimerEvent: {}
+[8.863809] (-) TimerEvent: {}
+[8.964569] (-) TimerEvent: {}
+[9.065382] (-) TimerEvent: {}
+[9.132713] (Gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[9.165640] (-) TimerEvent: {}
+[9.266406] (-) TimerEvent: {}
+[9.360628] (Gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[9.366568] (-) TimerEvent: {}
+[9.467368] (-) TimerEvent: {}
+[9.568067] (-) TimerEvent: {}
+[9.668724] (-) TimerEvent: {}
+[9.769581] (-) TimerEvent: {}
+[9.870406] (-) TimerEvent: {}
+[9.971266] (-) TimerEvent: {}
+[10.071942] (-) TimerEvent: {}
+[10.172605] (-) TimerEvent: {}
+[10.273273] (-) TimerEvent: {}
+[10.374015] (-) TimerEvent: {}
+[10.475175] (-) TimerEvent: {}
+[10.575988] (-) TimerEvent: {}
+[10.664001] (Gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: collision-bullet collision-ode utils-urdf dart \n'}
+[10.665471] (Gazebo) StdoutLine: {'line': b'-- Looking for DART - found\n'}
+[10.666282] (Gazebo) StdoutLine: {'line': b'-- Using system tinyxml.\n'}
+[10.667655] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml'\n"}
+[10.676129] (-) TimerEvent: {}
+[10.739624] (Gazebo) StdoutLine: {'line': b'--   Found tinyxml, version 2.6.2\n'}
+[10.776401] (-) TimerEvent: {}
+[10.877198] (-) TimerEvent: {}
+[10.883825] (Gazebo) StdoutLine: {'line': b'-- Using system tinyxml2.\n'}
+[10.885555] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.945932] (Gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.977396] (-) TimerEvent: {}
+[11.078150] (-) TimerEvent: {}
+[11.093615] (Gazebo) StdoutLine: {'line': b'-- Looking for libtar.h - not found\n'}
+[11.094191] (Gazebo) StdoutLine: {'line': b'-- Looking for libtar.so - not found\n'}
+[11.094535] (Gazebo) StdoutLine: {'line': b'-- \tMissing: libtar\n'}
+[11.095153] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[11.155476] (Gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[11.178326] (-) TimerEvent: {}
+[11.279144] (-) TimerEvent: {}
+[11.299784] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE-RTShaderSystem>=1.7.4'\n"}
+[11.361261] (Gazebo) StdoutLine: {'line': b'--   Found OGRE-RTShaderSystem, version 1.9.0\n'}
+[11.379353] (-) TimerEvent: {}
+[11.480179] (-) TimerEvent: {}
+[11.512641] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE>=1.7.4'\n"}
+[11.572982] (Gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[11.580374] (-) TimerEvent: {}
+[11.681170] (-) TimerEvent: {}
+[11.728720] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain'\n"}
+[11.781392] (-) TimerEvent: {}
+[11.787409] (Gazebo) StdoutLine: {'line': b'--   Found OGRE-Terrain, version 1.9.0\n'}
+[11.881644] (-) TimerEvent: {}
+[11.943871] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE-Overlay'\n"}
+[11.981866] (-) TimerEvent: {}
+[12.001214] (Gazebo) StdoutLine: {'line': b'--   Found OGRE-Overlay, version 1.9.0\n'}
+[12.082080] (-) TimerEvent: {}
+[12.152641] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'ccd>=1.4'\n"}
+[12.182329] (-) TimerEvent: {}
+[12.211552] (Gazebo) StdoutLine: {'line': b'--   Found ccd, version 2.0\n'}
+[12.282541] (-) TimerEvent: {}
+[12.359751] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[12.382844] (-) TimerEvent: {}
+[12.418795] (Gazebo) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[12.483069] (-) TimerEvent: {}
+[12.562950] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libavdevice>=56.4.100'\n"}
+[12.583278] (-) TimerEvent: {}
+[12.628029] (Gazebo) StdoutLine: {'line': b'--   Found libavdevice, version 58.13.100\n'}
+[12.683463] (-) TimerEvent: {}
+[12.784373] (-) TimerEvent: {}
+[12.797279] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[12.855701] (Gazebo) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[12.884596] (-) TimerEvent: {}
+[12.985403] (-) TimerEvent: {}
+[13.009418] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[13.067185] (Gazebo) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[13.085598] (-) TimerEvent: {}
+[13.186368] (-) TimerEvent: {}
+[13.216556] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[13.273457] (Gazebo) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[13.286573] (-) TimerEvent: {}
+[13.387410] (-) TimerEvent: {}
+[13.418994] (Gazebo) StdoutLine: {'line': b"-- Checking for modules 'playercore>=3.0;playerc++;playerwkb'\n"}
+[13.431327] (Gazebo) StdoutLine: {'line': b"--   No package 'playercore' found\n"}
+[13.440387] (Gazebo) StdoutLine: {'line': b"--   No package 'playerc++' found\n"}
+[13.449541] (Gazebo) StdoutLine: {'line': b"--   No package 'playerwkb' found\n"}
+[13.450338] (Gazebo) StdoutLine: {'line': b'-- \tPlayer not found, gazebo plugin for player will not be built.\n'}
+[13.451988] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'gts'\n"}
+[13.487621] (-) TimerEvent: {}
+[13.518192] (Gazebo) StdoutLine: {'line': b'--   Found gts, version 0.7.6\n'}
+[13.587809] (-) TimerEvent: {}
+[13.680177] (Gazebo) StdoutLine: {'line': b'-- Looking for GTS - found\n'}
+[13.681717] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[13.687975] (-) TimerEvent: {}
+[13.739898] (Gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[13.788176] (-) TimerEvent: {}
+[13.889020] (-) TimerEvent: {}
+[13.890656] (Gazebo) StdoutLine: {'line': b'-- Bullet found: 3.05\n'}
+[13.892356] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[13.954437] (Gazebo) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[13.989340] (-) TimerEvent: {}
+[14.090155] (-) TimerEvent: {}
+[14.099197] (Gazebo) StdoutLine: {'line': b'-- Looking for libusb-1.0 - found. USB peripherals support enabled.\n'}
+[14.100790] (Gazebo) StdoutLine: {'line': b"-- Checking for module 'OculusVR'\n"}
+[14.111678] (Gazebo) StdoutLine: {'line': b"--   No package 'OculusVR' found\n"}
+[14.112568] (Gazebo) StdoutLine: {'line': b'-- \tOculus Rift support will be disabled.\n'}
+[14.190341] (-) TimerEvent: {}
+[14.291108] (-) TimerEvent: {}
+[14.312944] (Gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at cmake/SearchForStuff.cmake:648 (find_package):\n'}
+[14.313694] (Gazebo) StderrLine: {'line': b'  By not providing "Findsdformat9.cmake" in CMAKE_MODULE_PATH this project\n'}
+[14.314115] (Gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[14.314624] (Gazebo) StderrLine: {'line': b'  "sdformat9", but CMake did not find one.\n'}
+[14.315028] (Gazebo) StderrLine: {'line': b'\n'}
+[14.315387] (Gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "sdformat9"\n'}
+[14.315729] (Gazebo) StderrLine: {'line': b'  (requested version 9.8) with any of the following names:\n'}
+[14.316015] (Gazebo) StderrLine: {'line': b'\n'}
+[14.316293] (Gazebo) StderrLine: {'line': b'    sdformat9Config.cmake\n'}
+[14.316614] (Gazebo) StderrLine: {'line': b'    sdformat9-config.cmake\n'}
+[14.316900] (Gazebo) StderrLine: {'line': b'\n'}
+[14.317174] (Gazebo) StderrLine: {'line': b'  Add the installation prefix of "sdformat9" to CMAKE_PREFIX_PATH or set\n'}
+[14.317554] (Gazebo) StderrLine: {'line': b'  "sdformat9_DIR" to a directory containing one of the above files.  If\n'}
+[14.317929] (Gazebo) StderrLine: {'line': b'  "sdformat9" provides a separate development package or SDK, be sure it has\n'}
+[14.318289] (Gazebo) StderrLine: {'line': b'  been installed.\n'}
+[14.318628] (Gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.319108] (Gazebo) StderrLine: {'line': b'  CMakeLists.txt:163 (include)\n'}
+[14.319513] (Gazebo) StderrLine: {'line': b'\n'}
+[14.319819] (Gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[14.320156] (Gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.320597] (Gazebo) StdoutLine: {'line': b'See also "/home/andrea/dev_ws/build/Gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[14.351234] (Gazebo) CommandEnded: {'returncode': 1}
+[14.354711] (Gazebo) JobEnded: {'identifier': 'Gazebo', 'rc': 1}
+[14.366468] (-) EventReactorShutdown: {}

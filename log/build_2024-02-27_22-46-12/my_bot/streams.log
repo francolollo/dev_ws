@@ -1,0 +1,27 @@
+[0.472s] Invoking command in '/home/andrea/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dev_ws/build/my_bot -- -j4 -l4
+[0.654s] Invoked command in '/home/andrea/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andrea/dev_ws/build/my_bot -- -j4 -l4
+[0.840s] Invoking command in '/home/andrea/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dev_ws/build/my_bot
+[0.869s] -- Install configuration: ""
+[0.871s] -- Execute custom install script
+[0.872s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.874s] -- Symlinking: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.911s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.912s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.913s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.915s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.917s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.921s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.923s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.926s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.928s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.928s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.932s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.935s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.936s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.936s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.936s] -- Symlinking: /home/andrea/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.970s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.971s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.971s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.972s] -- Up-to-date symlink: /home/andrea/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.980s] Invoked command in '/home/andrea/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andrea/dev_ws/build/my_bot

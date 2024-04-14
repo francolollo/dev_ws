@@ -1,0 +1,158 @@
+[0.084s] Invoking command in '/home/andrea/dev_ws/build/Gazebo': /usr/bin/cmake /home/andrea/dev_ws/gazebo -DCMAKE_INSTALL_PREFIX=/home/andrea/dev_ws/install/Gazebo
+[1.160s] -- The C compiler identification is GNU 11.4.0
+[1.999s] -- The CXX compiler identification is GNU 11.4.0
+[2.046s] -- Detecting C compiler ABI info
+[2.394s] -- Detecting C compiler ABI info - done
+[2.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.422s] -- Detecting C compile features
+[2.425s] -- Detecting C compile features - done
+[2.439s] -- Detecting CXX compiler ABI info
+[2.815s] -- Detecting CXX compiler ABI info - done
+[2.842s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.843s] -- Detecting CXX compile features
+[2.844s] -- Detecting CXX compile features - done
+[2.848s] -- Gazebo version 11.14.0
+[2.854s] -- Found CPack generators: DEB
+[2.893s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.914s] -- High memory tests: enabled
+[2.914s] -- 
+[2.915s] 
+[2.915s] ====== Finding 3rd Party Packages ======
+[2.927s] -- Operating system is Linux
+[2.975s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.998s] -- Checking for module 'freeimage>=3.9.0'
+[3.013s] --   No package 'freeimage' found
+[3.014s] --   freeimage.pc not found, trying freeimage_include_dir and freeimage_library_dir flags.
+[3.017s] --   Looking for FreeImage.h - not found
+[3.017s] -- 	Missing: Unable to find FreeImage.h
+[3.153s] --   Looking for libfreeimage - not found
+[3.154s] -- 	Missing: Unable to find libfreeimage
+[4.002s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.024s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[4.024s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[4.025s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[4.025s]   cmake_policy command to set the policy and suppress this warning.
+[4.026s] 
+[4.026s]   FindOpenGL found both a legacy GL library:
+[4.026s] 
+[4.027s]     OPENGL_gl_LIBRARY: /usr/lib/aarch64-linux-gnu/libGL.so
+[4.027s] 
+[4.027s]   and GLVND libraries for OpenGL and GLX:
+[4.028s] 
+[4.028s]     OPENGL_opengl_LIBRARY: /usr/lib/aarch64-linux-gnu/libOpenGL.so
+[4.028s]     OPENGL_glx_LIBRARY: /usr/lib/aarch64-linux-gnu/libGLX.so
+[4.028s] 
+[4.029s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[4.029s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[4.029s] Call Stack (most recent call first):
+[4.030s]   cmake/SearchForStuff.cmake:74 (include)
+[4.030s]   CMakeLists.txt:163 (include)
+[4.030s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.030s] [0m
+[4.031s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[4.062s] -- Could NOT find OpenAL (missing: OPENAL_LIBRARY OPENAL_INCLUDE_DIR) 
+[4.063s] -- 	OpenAL not found, audio support will be disabled.
+[7.811s] -- Found HDF5: /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5_cpp.so;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so (found version "1.10.7") found components: C CXX 
+[7.812s] -- HDF5 Found
+[8.268s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.271s] -- Checking for module 'libprofiler'
+[8.282s] --   No package 'libprofiler' found
+[8.288s] -- Looking for libprofiler - not found
+[8.289s] -- Checking for module 'libtcmalloc'
+[8.301s] --   No package 'libtcmalloc' found
+[8.305s] -- Looking for libtcmalloc - not found
+[8.502s] [33mCMake Warning at cmake/SearchForStuff.cmake:167 (find_package):
+[8.503s]   By not providing "FindSimbody.cmake" in CMAKE_MODULE_PATH this project has
+[8.503s]   asked CMake to find a package configuration file provided by "Simbody", but
+[8.503s]   CMake did not find one.
+[8.503s] 
+[8.504s]   Could not find a package configuration file provided by "Simbody" with any
+[8.504s]   of the following names:
+[8.504s] 
+[8.505s]     SimbodyConfig.cmake
+[8.505s]     simbody-config.cmake
+[8.505s] 
+[8.505s]   Add the installation prefix of "Simbody" to CMAKE_PREFIX_PATH or set
+[8.506s]   "Simbody_DIR" to a directory containing one of the above files.  If
+[8.506s]   "Simbody" provides a separate development package or SDK, be sure it has
+[8.506s]   been installed.
+[8.506s] Call Stack (most recent call first):
+[8.506s]   CMakeLists.txt:163 (include)
+[8.507s] 
+[8.507s] [0m
+[8.507s] -- Looking for Simbody - not found
+[8.508s] -- 	Simbody not found, for simbody physics engine option, please install libsimbody-dev.
+[9.131s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[9.359s] -- Found assimp: /usr/include (found version "5.2.0") 
+[10.663s] -- Found DART: /usr/include (Required is at least version "6.6") found components: collision-bullet collision-ode utils-urdf dart 
+[10.664s] -- Looking for DART - found
+[10.664s] -- Using system tinyxml.
+[10.666s] -- Checking for module 'tinyxml'
+[10.738s] --   Found tinyxml, version 2.6.2
+[10.882s] -- Using system tinyxml2.
+[10.883s] -- Checking for module 'tinyxml2'
+[10.944s] --   Found tinyxml2, version 9.0.0
+[11.092s] -- Looking for libtar.h - not found
+[11.092s] -- Looking for libtar.so - not found
+[11.092s] -- 	Missing: libtar
+[11.093s] -- Checking for module 'tbb'
+[11.153s] --   Found tbb, version 2021.5.0
+[11.298s] -- Checking for module 'OGRE-RTShaderSystem>=1.7.4'
+[11.359s] --   Found OGRE-RTShaderSystem, version 1.9.0
+[11.512s] -- Checking for module 'OGRE>=1.7.4'
+[11.571s] --   Found OGRE, version 1.9.0
+[11.727s] -- Checking for module 'OGRE-Terrain'
+[11.785s] --   Found OGRE-Terrain, version 1.9.0
+[11.942s] -- Checking for module 'OGRE-Overlay'
+[11.999s] --   Found OGRE-Overlay, version 1.9.0
+[12.151s] -- Checking for module 'ccd>=1.4'
+[12.210s] --   Found ccd, version 2.0
+[12.358s] -- Checking for module 'libswscale'
+[12.417s] --   Found libswscale, version 5.9.100
+[12.561s] -- Checking for module 'libavdevice>=56.4.100'
+[12.626s] --   Found libavdevice, version 58.13.100
+[12.795s] -- Checking for module 'libavformat'
+[12.854s] --   Found libavformat, version 58.76.100
+[13.007s] -- Checking for module 'libavcodec'
+[13.065s] --   Found libavcodec, version 58.134.100
+[13.215s] -- Checking for module 'libavutil'
+[13.272s] --   Found libavutil, version 56.70.100
+[13.417s] -- Checking for modules 'playercore>=3.0;playerc++;playerwkb'
+[13.429s] --   No package 'playercore' found
+[13.438s] --   No package 'playerc++' found
+[13.447s] --   No package 'playerwkb' found
+[13.448s] -- 	Player not found, gazebo plugin for player will not be built.
+[13.450s] -- Checking for module 'gts'
+[13.516s] --   Found gts, version 0.7.6
+[13.678s] -- Looking for GTS - found
+[13.680s] -- Checking for module 'bullet>=2.82'
+[13.738s] --   Found bullet, version 3.05
+[13.889s] -- Bullet found: 3.05
+[13.890s] -- Checking for module 'libusb-1.0'
+[13.953s] --   Found libusb-1.0, version 1.0.25
+[14.097s] -- Looking for libusb-1.0 - found. USB peripherals support enabled.
+[14.099s] -- Checking for module 'OculusVR'
+[14.110s] --   No package 'OculusVR' found
+[14.110s] -- 	Oculus Rift support will be disabled.
+[14.311s] [31mCMake Error at cmake/SearchForStuff.cmake:648 (find_package):
+[14.311s]   By not providing "Findsdformat9.cmake" in CMAKE_MODULE_PATH this project
+[14.312s]   has asked CMake to find a package configuration file provided by
+[14.312s]   "sdformat9", but CMake did not find one.
+[14.313s] 
+[14.313s]   Could not find a package configuration file provided by "sdformat9"
+[14.313s]   (requested version 9.8) with any of the following names:
+[14.314s] 
+[14.314s]     sdformat9Config.cmake
+[14.314s]     sdformat9-config.cmake
+[14.315s] 
+[14.315s]   Add the installation prefix of "sdformat9" to CMAKE_PREFIX_PATH or set
+[14.315s]   "sdformat9_DIR" to a directory containing one of the above files.  If
+[14.316s]   "sdformat9" provides a separate development package or SDK, be sure it has
+[14.316s]   been installed.
+[14.316s] Call Stack (most recent call first):
+[14.317s]   CMakeLists.txt:163 (include)
+[14.317s] 
+[14.318s] [0m
+[14.318s] -- Configuring incomplete, errors occurred!
+[14.318s] See also "/home/andrea/dev_ws/build/Gazebo/CMakeFiles/CMakeOutput.log".
+[14.350s] Invoked command in '/home/andrea/dev_ws/build/Gazebo' returned '1': /usr/bin/cmake /home/andrea/dev_ws/gazebo -DCMAKE_INSTALL_PREFIX=/home/andrea/dev_ws/install/Gazebo
